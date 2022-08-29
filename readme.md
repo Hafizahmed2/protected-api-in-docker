@@ -16,9 +16,9 @@ This app has two endpoints
 
 - **[POST] /auth/login** (public api)
   - To login to access the protected apis
-    -This api accepts two mandatory parameters in request body
-  - name
-    -password
+  - This api accepts two mandatory parameters in request body
+      - name
+      - password
 - **[GET] /time** (protected api)
   - To get current time
 
